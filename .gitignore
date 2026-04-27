@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Local-only experimental artifacts (the app writes uploads + interaction
+# logs to tempfile.gettempdir(); these patterns guard against any local
+# stray copies)
+birdcage_uploads/
+birdcage_exp/
