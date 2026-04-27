@@ -1,0 +1,27 @@
+# ──────────────────────────────────────────────────────────────────────
+# Birdcage Diagram — Python dependencies
+# ──────────────────────────────────────────────────────────────────────
+#
+# Install with:
+#     pip install -r requirements.txt
+#
+# Tested on Python 3.10, 3.11, 3.12.
+# Versions are pinned to known-good combinations; see the README for
+# rationale.
+
+# Core Dash + Plotly stack.
+# Dash 2.16+ is required for the `running=[...]` callback parameter used
+# by the in-app status badge.
+dash==2.18.1
+plotly==5.24.1
+
+# Data handling.
+pandas==2.2.3
+numpy==1.26.4
+
+# Excel I/O backend used by pandas.read_excel().
+openpyxl==3.1.5
+
+# Static image export from the Download panel (PNG / PDF / SVG).
+# IMPORTANT: kaleido 1.x is incompatible with the API used here — keep 0.2.1.
+kaleido==0.2.1
